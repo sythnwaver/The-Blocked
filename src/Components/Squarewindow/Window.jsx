@@ -1,6 +1,6 @@
 import React from 'react';
 import './Window.css';
-import Login from '../LoginPage/Login';
+import AuthTabs from '../LoginPage/AuthTabs';
 
 const RetroWindow = () => {
   return (
@@ -14,7 +14,7 @@ const RetroWindow = () => {
         </div>
       </div>
       <div className="retro-body">
-        <Login/>
+        <AuthTabs/>
       </div>
     </div>
   );
