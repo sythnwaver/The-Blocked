@@ -9,15 +9,19 @@ body {
 }
 
 .container {
-  font-family: 'VT323', monospace;
-  background: #ffffff14; /* rgba(255, 255, 255, 0.08) */
-  border: 5px solid #000000; /* Black */
+  font-family: 'VT323', monospace; 
+  background: #ffffff14;
+  border: 1px solid #000000; 
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(25px);
   border-radius: 15px;
-  box-shadow: 0 10px 32px #2d2c2c5e; /* rgba(45, 44, 44, 0.37) */
-
+  box-shadow: 0 10px 32px #2d2c2c5e;
   padding: 2rem;
+  transform: translate(-3%, 1%);
+
+  
+
+  padding: 10px;
   max-width: 800px;
   width: 100%;
   margin: auto;

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.retro-window {
+  font-family: 'VT323', monospace;
+  width: 550px;
+  background-color: #fdf6e3;
+  border: 3px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 #000;
+  overflow: hidden;
+}
+
+.retro-titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d3cbb8;
+  padding: 5px 10px;
+  border-bottom: 2px solid #000;
+}
+
+.retro-title {
+  font-size: 14px;
+  color: #000;
+}
+
+.retro-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.red {
+  background-color: #ff5f56;
+}
+
+.yellow {
+  background-color: #ffbd2e;
+}
+
+.green {
+  background-color: #27c93f;
+}
+
+.retro-body {
+  padding: 20px;
+  background-color: #c2e3e0;
+}
